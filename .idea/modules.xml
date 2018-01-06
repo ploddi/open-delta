@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/confor/confor.iml" filepath="$PROJECT_DIR$/confor/confor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/delfor/delfor.iml" filepath="$PROJECT_DIR$/delfor/delfor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/delta-common.iml" filepath="$PROJECT_DIR$/common/delta-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/delta-editor/delta-editor.iml" filepath="$PROJECT_DIR$/delta-editor/delta-editor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intkey/delta-intkey.iml" filepath="$PROJECT_DIR$/intkey/delta-intkey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui-common/delta-ui-common.iml" filepath="$PROJECT_DIR$/ui-common/delta-ui-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dist/dist.iml" filepath="$PROJECT_DIR$/dist/dist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/key/key.iml" filepath="$PROJECT_DIR$/key/key.iml" />
+      <module fileurl="file://$PROJECT_DIR$/open-delta.iml" filepath="$PROJECT_DIR$/open-delta.iml" />
+    </modules>
+  </component>
+</project>

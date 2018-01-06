@@ -52,7 +52,7 @@ public class ExportController {
 		_model = context.getCurrentDataSet();
 		_resources = _editor.getContext().getResourceMap();
 		_actions = _editor.getContext().getActionMap(this);
-		_exportFileEncoding = "Cp1252";
+		_exportFileEncoding = "UTF8";
 		_lineSeparator = System.getProperty("line.separator");
 	}
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="confor" />
+        <module name="delfor" />
+        <module name="delta-common" />
+        <module name="delta-editor" />
+        <module name="delta-intkey" />
+        <module name="delta-ui-common" />
+        <module name="dist" />
+        <module name="key" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="confor" target="1.6" />
+      <module name="delfor" target="1.6" />
+      <module name="delta-common" target="1.6" />
+      <module name="delta-editor" target="1.6" />
+      <module name="delta-intkey" target="1.6" />
+      <module name="delta-ui-common" target="1.6" />
+      <module name="dist" target="1.6" />
+      <module name="key" target="1.6" />
+      <module name="open-delta" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

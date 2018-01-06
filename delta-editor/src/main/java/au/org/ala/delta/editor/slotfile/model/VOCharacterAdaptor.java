@@ -72,7 +72,7 @@ public class VOCharacterAdaptor extends ImageHolderAdaptor implements CharacterD
         synchronized (_vop) {
             String description = "";
             if (_textDesc != null) {
-                description = _textDesc.readFeatureText(TextType.RTF);
+                description = _textDesc.readFeatureText(TextType.UTF8);
             }
             return description;
         }
@@ -154,7 +154,7 @@ public class VOCharacterAdaptor extends ImageHolderAdaptor implements CharacterD
                 return "";
             }
             int stateId = _charDesc.uniIdFromStateNo(stateNumber);
-            return _textDesc.readStateText(stateId, TextType.RTF);
+            return _textDesc.readStateText(stateId, TextType.UTF8);
         }
     }
 
@@ -188,7 +188,7 @@ public class VOCharacterAdaptor extends ImageHolderAdaptor implements CharacterD
     @Override
     public String getNotes() {
         synchronized (_vop) {
-            return _textDesc.readNoteText(TextType.RTF);
+            return _textDesc.readNoteText(TextType.UTF8);
         }
     }
 
